@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:kuwin_info_mac}",
+            "name": "Debug kuwin_info_mac",
+            "program": "${workspaceFolder:kuwin_info_mac}/.build/debug/kuwin_info_mac",
+            "preLaunchTask": "swift: Build Debug kuwin_info_mac"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:kuwin_info_mac}",
+            "name": "Release kuwin_info_mac",
+            "program": "${workspaceFolder:kuwin_info_mac}/.build/release/kuwin_info_mac",
+            "preLaunchTask": "swift: Build Release kuwin_info_mac"
+        }
+    ]
+}
